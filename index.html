@@ -525,7 +525,7 @@
   // Love meter logic and celebration
   document.getElementById('increase-love-btn').addEventListener('click', () => {
     if (lovePercent < lovePercentMax) {
-      lovePercent += 5;
+      lovePercent += 2;
       if (lovePercent > lovePercentMax) lovePercent = lovePercentMax;
       updateLoveMeter();
       if (lovePercent === lovePercentMax) {
@@ -622,3 +622,4 @@
 </script>
 </body>
 </html>
+
